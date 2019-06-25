@@ -4,18 +4,34 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 .header {
 
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
+}
+
+@font-face {
+  font-family: scribblerFont;
+  src: url(MarckScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: subtitleFont;
+  src: url(JosefinSans-ThinItalic.ttf);
 }
 
 .scribbler {
    
-    text-align: left;
+    float: left;
+	font-family: scribblerFont;
+	color: rgb(41, 73, 179);
+}
 
+.subtitle {
+	float: left;
+	font-family: subtitleFont;
 }
 
 .button {
-    background-color: rgb(41, 73, 179); /* Green */
+    background-color: rgb(41, 73, 179);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -25,6 +41,5 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     font-size: 16px;
     margin: 5px;
 }
-
 
 
