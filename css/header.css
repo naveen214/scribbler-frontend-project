@@ -3,93 +3,93 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
 .header {
 
-    display:flex;
-    justify-content: space-between;
-    position: relative;
+  display:flex;
+  justify-content: space-between;
+  position: relative;
 }
 
 @font-face {
-    font-family: 'Satisfy';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v9/rP2Hp2yn6lkG50LoCZOIHTWEBlw.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: 'Satisfy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v9/rP2Hp2yn6lkG50LoCZOIHTWEBlw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: scribblerFont;
-  src: url(MarckScript-Regular.ttf);
+font-family: scribblerFont;
+src: url(MarckScript-Regular.ttf);
 }
 
 @font-face {
-  font-family: subtitleFont;
-  src: url(JosefinSans-ThinItalic.ttf);
+font-family: subtitleFont;
+src: url(JosefinSans-ThinItalic.ttf);
 }
 
 .scribbler {
-   
-    float: left;
-	font-family: 'Satisfy';
-	color: rgb(41, 73, 179);
+ 
+  float: left;
+font-family: 'Satisfy';
+color: rgb(41, 73, 179);
 }
 
 .subtitle {
-	float: left;
-	font-family: 'Satisfy';
+float: left;
+font-family: 'Satisfy';
 }
 
 .button {
-    background-color: rgb(41, 73, 179);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 5px;
+  background-color: rgb(41, 73, 179);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
 }
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 20%;
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 20%;
 }
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+color: #000;
+text-decoration: none;
+cursor: pointer;
 }
 
 .line{
-  border-top:1px solid black;
-  width:100%
+border-top:1px solid black;
+width:100%
 }
