@@ -53,19 +53,23 @@
 
             <!-- Modal content -->
             <div class="modal-content">
+            <form>
               <span class="close">&times;</span>
-              <h1>Get Started</h1>
+              <h2 class="modal-title">Get Started</h2>
               <div class="line"></div>
-
-              Full Name <br>
-              <input type="text" name="fname"><br>
-              Username <br> 
-              <input type="text" name="uname"><br>
-              Password <br> 
-              <input type="text" name="pword"><br>
-              Confirm Password <br> 
-              <input type="text" name="confirm_pword"><br>
-              <button class="button">Sign Up</button>
+              <br>
+              <label class="signup-signin-label">Full Name</label>
+              <input class="signup-signin-textbox" type="text" name="fname" placeholder="Enter Full Name" required/>
+              <label class="signup-signin-label">Username</label> 
+              <input class="signup-signin-textbox" type="text" name="uname" placeholder="Enter Username" required/>
+              <label class="signup-signin-label">Password</label> 
+              <input class="signup-signin-textbox" type="text" name="pword" placeholder="Enter Password" required/>
+              <label class="signup-signin-label">Confirm Password</label>  
+              <input class="signup-signin-textbox" type="text" name="confirm_pword" placeholder="Confirm Password" required/>
+              <br>
+              <!-- <input type="submit" value = "Sign Up"> -->
+              <button class="modal-button">Sign Up</button>
+            </form>
             </div>
           
     </div>
@@ -73,20 +77,22 @@
 	<div id="signin-modal" class="modal">
 
         <!-- Insert code for Sign In modal here -->
-        
 
             <!-- Modal content -->
             <div class="modal-content">
+            <form>
               <span class="close">&times;</span>
-              <h1>Welcome Back!</h1>
+              <h2 class="modal-title">Welcome Back!</h2>
               <div class="line"></div>
+              <br>
 
-              Username <br>
-              <input type="text" name="fname"><br>
-              Password <br> 
-              <input type="text" name="uname"><br>
-              <button class="button">Sign In</button>
-			  <h4> Not a member? Sign Up </h4> 
+              <label class="signup-signin-label">Username</label> 
+              <input class="signup-signin-textbox" type="text" name="fname" placeholder="Enter Username" required><br>
+              <label class="signup-signin-label">Password</label>
+              <input class="signup-signin-textbox" type="text" name="uname" placeholder="Enter Password" required><br>
+              <button class="modal-button">Sign In</button>
+			  <h4 class="modal-title"> Not a member? Sign Up </h4> 
+            </form>
             </div>
           
     </div>
@@ -99,13 +105,14 @@
          <!-- Modal content -->
          <div class="modal-content">
             <span class="close">&times;</span>
-            <h1>Pen Your Post</h1>
+            <h2 class="modal-title">Pen Your Post</h2>
+            <br>
             
-            Title <br>
-            <input type="text" name="title"><br>
-            Content <br> 
-            <input type="text" name="content"><br>
-            <button class="button">Create</button>
+            <label class="signup-signin-label">Title</label> <br>
+            <input class="create-post-title-box" type="text" name="title"><br>
+            <label class="signup-signin-label">Content</label> 
+            <input class="create-post-content-box" type="text" name="content"><br>
+            <div class="center-button"><button class="create-post-button">Create</button></div>
              
           </div>
         

@@ -38,7 +38,7 @@ float: left;
 font-family: 'Satisfy';
 }
 
-.button {
+ .button {
   background-color: rgb(41, 73, 179);
   border: none;
   color: white;
@@ -48,6 +48,20 @@ font-family: 'Satisfy';
   display: inline-block;
   font-size: 16px;
   margin: 5px;
+}
+
+
+.modal-button {
+  background-color: rgb(41, 179, 75);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5px;
+  width: 100%;
 }
 
 /* The Modal (background) */
@@ -92,4 +106,75 @@ cursor: pointer;
 .line{
 border-top:1px solid black;
 width:100%
+}
+
+.modal-title{
+  text-align: center;
+  font-family: subtitleFont;
+}
+
+.signup-signin-textbox {
+  width:100%;
+  background-color: lightgrey;
+  border: 0;
+  height: 30px;
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.signup-signin-label {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.create-post-title-box {
+  width:50%;
+  background-color: lightgrey;
+  border: 0;
+  height: 30px;
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.create-post-content-box {
+  width:100%;
+  background-color: lightgrey;
+  border: 0;
+  height: 100px;
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.create-post-button {
+  background-color: rgb(41, 179, 75);
+  border: none;
+  color: white;
+  /* padding: 15px 32px; */
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 2.5px;
+  width: 40%;
+ 
+}
+
+.center-button {
+  text-align: center;
+}
+
+.postButtons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:50%;
+  /* display:block; */
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
 }
