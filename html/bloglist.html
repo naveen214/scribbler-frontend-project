@@ -171,8 +171,21 @@
         </div>
       </div>
 
-      <div>
-        <!-- Insert code for delete modal here -->
+      <div id="deleteModal" class="deleteModal">
+        <div class="deleteModal-content">
+          <div class="deleteModal-header">
+            <h3>Are you sure want to delete this post?</h3>
+          </div>
+          <div class="deleteModal-body">
+            <button class="btn-modal red-btn">Yes</button>
+            <button
+              class="btn-modal green-btn right"
+              onclick="hideDeleteModal()"
+            >
+              No
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     <script src="..\js\bloglist.js"></script>
