@@ -24,13 +24,38 @@
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    margin: 5px;
+    margin: 10px 0px;
     float:right;
     display:none;
     cursor:pointer;
 }
-#editBtn{
+#editBtn,#likeBtn,#commentBtn{
     display:block;
 }
 
+#likeBtn,#commentBtn{
+    background-color:red;
+    float: unset;
+}
+
+#commentText{
+    height: 70px;
+    width: 60%;
+}
+#allComments{
+    padding:20px;
+    background-color: lightgray;
+    width:60%;
+}
+.commentStyle{
+    height: 65px;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    line-height: 70px;
+    padding: 5px;
+}
+.commentStyle:last-child {
+    margin-bottom:0;
+}
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
