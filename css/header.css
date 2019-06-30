@@ -2,7 +2,9 @@
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
 .header {
-
+  line-height: 2px;
+}
+.main-header {
   display:flex;
   justify-content: space-between;
   position: relative;
@@ -16,7 +18,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-@font-face {
+/* @font-face {
 font-family: scribblerFont;
 src: url(MarckScript-Regular.ttf);
 }
@@ -24,18 +26,29 @@ src: url(MarckScript-Regular.ttf);
 @font-face {
 font-family: subtitleFont;
 src: url(JosefinSans-ThinItalic.ttf);
+} */
+
+@font-face {
+  font-family: subtitle-font;
+  src: url(Abel-Regular.ttf);
 }
+  
 
 .scribbler {
  
   float: left;
 font-family: 'Satisfy';
 color: rgb(41, 73, 179);
+margin-left: 5px;
 }
 
 .subtitle {
 float: left;
 font-family: 'Satisfy';
+padding: 0px;
+margin-top:-20px;
+margin-left: 5px;
+
 }
 
  .button {
@@ -110,7 +123,7 @@ width:100%
 
 .modal-title{
   text-align: center;
-  font-family: subtitleFont;
+  font-family: subtitle-font;
 }
 
 .signup-signin-textbox {
@@ -124,57 +137,9 @@ width:100%
 }
 
 .signup-signin-label {
+  font-family: subtitle-font;
   font-weight: bold;
   font-size: 15px;
 }
 
-.create-post-title-box {
-  width:50%;
-  background-color: lightgrey;
-  border: 0;
-  height: 30px;
-  padding-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-}
 
-.create-post-content-box {
-  width:100%;
-  background-color: lightgrey;
-  border: 0;
-  height: 100px;
-  padding-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-}
-
-.create-post-button {
-  background-color: rgb(41, 179, 75);
-  border: none;
-  color: white;
-  /* padding: 15px 32px; */
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 5px;
-  margin-bottom: 2.5px;
-  width: 40%;
- 
-}
-
-.center-button {
-  text-align: center;
-}
-
-.postButtons{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top:50%;
-  /* display:block; */
-  align-items: center;
-  justify-content: center;
-  vertical-align: middle;
-}
