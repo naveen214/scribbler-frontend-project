@@ -29,6 +29,7 @@
     display:none;
     cursor:pointer;
 }
+
 #editBtn,#likeBtn,#commentBtn{
     display:block;
 }
