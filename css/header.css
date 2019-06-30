@@ -5,17 +5,21 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
   line-height: 2px;
 }
 .main-header {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   position: relative;
 }
 
 @font-face {
-  font-family: 'Satisfy';
+  font-family: "Satisfy";
   font-style: normal;
   font-weight: 400;
-  src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v9/rP2Hp2yn6lkG50LoCZOIHTWEBlw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: local("Satisfy Regular"), local("Satisfy-Regular"),
+    url(https://fonts.gstatic.com/s/satisfy/v9/rP2Hp2yn6lkG50LoCZOIHTWEBlw.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
 /* @font-face {
@@ -32,26 +36,23 @@ src: url(JosefinSans-ThinItalic.ttf);
   font-family: subtitle-font;
   src: url(Abel-Regular.ttf);
 }
-  
 
 .scribbler {
- 
   float: left;
-font-family: 'Satisfy';
-color: rgb(41, 73, 179);
-margin-left: 5px;
+  font-family: "Satisfy";
+  color: rgb(41, 73, 179);
+  margin-left: 5px;
 }
 
 .subtitle {
-float: left;
-font-family: 'Satisfy';
-padding: 0px;
-margin-top:-20px;
-margin-left: 5px;
-
+  float: left;
+  font-family: "Satisfy";
+  padding: 0px;
+  margin-top: -20px;
+  margin-left: 5px;
 }
 
- .button {
+.button {
   background-color: rgb(41, 73, 179);
   border: none;
   color: white;
@@ -63,7 +64,6 @@ margin-left: 5px;
   margin: 5px;
   cursor: pointer;
 }
-
 
 .modal-button {
   background-color: rgb(41, 179, 75);
@@ -81,55 +81,56 @@ margin-left: 5px;
 
 /* The Modal (background) */
 .modal {
-display: none; /* Hidden by default */
-position: fixed; /* Stay in place */
-z-index: 1; /* Sit on top */
-padding-top: 100px; /* Location of the box */
-left: 0;
-top: 0;
-width: 100%; /* Full width */
-height: 100%; /* Full height */
-overflow: auto; /* Enable scroll if needed */
-background-color: rgb(0,0,0); /* Fallback color */
-background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  color: black;
 }
 
 /* Modal Content */
 .modal-content {
-background-color: #fefefe;
-margin: auto;
-padding: 20px;
-border: 1px solid #888;
-width: 20%;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%;
 }
 
 /* The Close Button */
 .close {
-color: #aaaaaa;
-float: right;
-font-size: 28px;
-font-weight: bold;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-color: #000;
-text-decoration: none;
-cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.line{
-border-top:1px solid black;
-width:100%
+.line {
+  border-top: 1px solid black;
+  width: 100%;
 }
 
-.modal-title{
+.modal-title {
   text-align: center;
   font-family: subtitle-font;
 }
 
 .signup-signin-textbox {
-  width:100%;
+  width: 100%;
   background-color: lightgrey;
   border: 0;
   height: 30px;
@@ -143,5 +144,3 @@ width:100%
   font-weight: bold;
   font-size: 15px;
 }
-
-
