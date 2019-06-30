@@ -2,7 +2,9 @@
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
 .header {
-
+  line-height: 2px;
+}
+.main-header {
   display:flex;
   justify-content: space-between;
   position: relative;
@@ -31,11 +33,16 @@ src: url(JosefinSans-ThinItalic.ttf);
   float: left;
 font-family: 'Satisfy';
 color: rgb(41, 73, 179);
+margin-left: 5px;
 }
 
 .subtitle {
 float: left;
 font-family: 'Satisfy';
+padding: 0px;
+margin-top:-20px;
+margin-left: 5px;
+
 }
 
  .button {
@@ -164,21 +171,6 @@ width:100%
  
 }
 
-/* .center-button {
-  text-align: center;
-} */
-
-/* .postButtons{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top:50%;
-  display:block;
-  align-items: center;
-  justify-content: center;
-  vertical-align: middle;
-} */
-
 .postButtons {
   line-height: 500px;
   text-align: center;
@@ -197,16 +189,6 @@ width:100%
   margin: 5px;
   font-weight: bold;
 }
-
-/* .postButtonsChild {
-  
-  vertical-align: middle;
-  justify-content: center;
-  align-items: center;
-  left: 50%;
-  
-} */
-
 
 .pseudolink { 
    color:blue; 
