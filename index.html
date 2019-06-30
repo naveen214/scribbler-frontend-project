@@ -43,7 +43,7 @@
             <div class="postButtonsChild">
                 <p> 
                     <button class="center-button" id= "all-posts-button" onclick="location.href='./html/bloglist.html'">All Posts</button>
-                    <button class="center-button" id = "create-post-button">Create Posts</button>
+                    <button class="center-button" id = "create-post-button">Create Post</button>
                 </p>	
             </div>    
         </div>
@@ -61,14 +61,14 @@
               <h2 class="modal-title">Get Started</h2>
               <div class="line"></div>
               <br>
-              <label class="signup-signin-label">Full Name</label>
-              <input class="signup-signin-textbox" type="text" name="fname" placeholder="Enter Full Name" required/>
-              <label class="signup-signin-label">Username</label> 
-              <input class="signup-signin-textbox" type="text" name="uname" placeholder="Enter Username" required/>
-              <label class="signup-signin-label">Password</label> 
-              <input class="signup-signin-textbox" type="text" name="pword" placeholder="Enter Password" required/>
-              <label class="signup-signin-label">Confirm Password</label>  
-              <input class="signup-signin-textbox" type="text" name="confirm_pword" placeholder="Confirm Password" required/>
+                <label class="signup-signin-label">Full Name</label>
+                <input class="signup-signin-textbox" type="text" name="fname" placeholder="Enter Full Name" required/>
+                <label class="signup-signin-label">Username</label> 
+                <input class="signup-signin-textbox" type="text" name="uname" placeholder="Enter Username" required/>
+                <label class="signup-signin-label">Password</label> 
+                <input class="signup-signin-textbox" type="text" name="pword" placeholder="Enter Password" required/>
+                <label class="signup-signin-label">Confirm Password</label>  
+                <input class="signup-signin-textbox" type="text" name="confirm_pword" placeholder="Confirm Password" required/>
               <br>
               <!-- <input type="submit" value = "Sign Up"> -->
               <button class="modal-button">Sign Up</button>
@@ -94,9 +94,8 @@
               <label class="signup-signin-label">Password</label>
               <input class="signup-signin-textbox" type="text" name="uname" placeholder="Enter Password" required><br>
               <button class="modal-button">Sign In</button>
-              <!-- <h4 class="modal-title"> Not a member? <a href="javascript:void(0)" id="signup-click">Sign Up</a> </h4> -->
-              <!-- <h4 class="modal-title"> Not a member? <span onclick="signupModal();">Sign Up</span> </h4>  -->
-              <p>Not a member?<span id="signup-click" class="pseudolink">Sign Up</span></p>
+           
+              <p class="new-member">Not a member?<span id="signup-click" onclick="gotoSignin()" class="pseudolink">Sign Up</span></p>
             </form>
             </div>
           
@@ -110,14 +109,14 @@
          <!-- Modal content -->
          <div class="create-post-modal-content">
             <span class="close">&times;</span>
-            <h2 class="create-post-title-font">Pen Your Post</h2>
+                <h2 class="create-post-title-font">Pen Your Post</h2>
             <br>
             
-            <label class="create-post-label">Title:</label> <br>
-            <input class="create-post-title-box" type="text" name="title"><br>
-            <label class="create-post-label">Content:</label> 
-            <input class="create-post-content-box" type="text" name="content"><br>
-            <div><button class="create-post-button">Create</button></div>
+                <label class="create-post-label">Title:</label> <br>
+                <input class="create-post-title-box" type="text" name="title"><br>
+                <label class="create-post-label">Content:</label> 
+                <input class="create-post-content-box" type="text" name="content"><br>
+                <div><button class="create-post-button">Create</button></div>
              
           </div>
         

@@ -63,10 +63,14 @@ window.onclick = function(event) {
   }
 }
 
-var click = document.getElementsById("signup-click");
-
-click.onclick = function() {
-      modal1.style.display = "none";
-      var modal3 = document.getElementById("signup-modal");
-      modal3.style.display = "block";
+function gotoSignin() {
+      
+      var modal3 = document.getElementById("signin-modal"); 
+      var modal4 = document.getElementById("signup-modal");
+      
+      modal3.style.display = "none";
+      modal4.style.display = "block";
+            
+  
 }
+

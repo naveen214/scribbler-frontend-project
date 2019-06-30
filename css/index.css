@@ -55,22 +55,20 @@ body{
  }
  
  .center-button {
-   background-color:yellow; 
+   background-color:rgba(255, 217, 0, 0.822); 
    border: none;
    color: black;
-   padding: 15px 32px;
+   padding-top: 15px;
+   padding-bottom: 15px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 16px;
    margin: 5px;
+   padding-left: 10px;  
+   padding-right: 10px;
    font-weight: bold;
- }
- 
- .pseudolink { 
-    color:blue; 
-    text-decoration:underline; 
-    cursor:pointer; 
+   /* width:100px; */
  }
 
  .create-post-modal {
@@ -111,4 +109,15 @@ src: url(Abel-Regular.ttf);
    font-family: create-post-title-font;
    font-size: 15px;
    text-align: center;
+ }
+
+.pseudolink { 
+   color:blue;  
+   cursor:pointer; 
+ }
+
+ .new-member {
+   text-align: center;
+   font-family: create-post-title-font;
+   font-weight: bold;
  }
