@@ -1,4 +1,6 @@
 // Modal for Signup
+
+function signupModal() {
 var modal = document.getElementById("signup-modal");
 
 // Get the button that opens the modal
@@ -13,9 +15,9 @@ btn.onclick = function() {
   modal.style.display = "block";
 }
 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
+// btn.onclick = function() {
+//     modal.style.display = "block";
+// }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
@@ -28,6 +30,12 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+return false;
+
+}
+
+signupModal();
 
 // Modal for Signin
 var modal1 = document.getElementById("signin-modal");
@@ -55,3 +63,10 @@ window.onclick = function(event) {
   }
 }
 
+var click = document.getElementsById("signup-click");
+
+click.onclick = function() {
+      modal1.style.display = "none";
+      var modal3 = document.getElementById("signup-modal");
+      modal3.style.display = "block";
+}

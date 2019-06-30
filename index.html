@@ -37,12 +37,12 @@
         <div class="postButtons">
 
         	<!-- Insert code for All Posts & Create Post button here -->
-
-            <p> 
-                <button class="button" id= "all-posts-button" onclick="location.href='./html/bloglist.html'">All Posts</button>
-                <button class="button" id = "create-post-button">Create Posts</button>
-            </p>	
-                
+            <div class="postButtonsChild">
+                <p> 
+                    <button class="center-button" id= "all-posts-button" onclick="location.href='./html/bloglist.html'">All Posts</button>
+                    <button class="center-button" id = "create-post-button">Create Posts</button>
+                </p>	
+            </div>    
         </div>
     </div>
 
@@ -91,7 +91,9 @@
               <label class="signup-signin-label">Password</label>
               <input class="signup-signin-textbox" type="text" name="uname" placeholder="Enter Password" required><br>
               <button class="modal-button">Sign In</button>
-			  <h4 class="modal-title"> Not a member? Sign Up </h4> 
+              <!-- <h4 class="modal-title"> Not a member? <a href="javascript:void(0)" id="signup-click">Sign Up</a> </h4> -->
+              <!-- <h4 class="modal-title"> Not a member? <span onclick="signupModal();">Sign Up</span> </h4>  -->
+              <p>Not a member?<span id="signup-click" class="pseudolink">Sign Up</span></p>
             </form>
             </div>
           

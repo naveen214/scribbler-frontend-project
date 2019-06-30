@@ -164,17 +164,55 @@ width:100%
  
 }
 
-.center-button {
+/* .center-button {
   text-align: center;
-}
+} */
 
-.postButtons{
+/* .postButtons{
   display: flex;
   align-items: center;
   justify-content: center;
   top:50%;
-  /* display:block; */
+  display:block;
   align-items: center;
   justify-content: center;
   vertical-align: middle;
+} */
+
+.postButtons {
+  line-height: 500px;
+  text-align: center;
+
 }
+
+.center-button {
+  background-color:yellow;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+/* .postButtonsChild {
+  
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  
+} */
+
+
+.pseudolink { 
+   color:blue; 
+   text-decoration:underline; 
+   cursor:pointer; 
+}
+
+
+
