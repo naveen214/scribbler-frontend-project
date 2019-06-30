@@ -100,6 +100,11 @@ font-family: create-post-title-font;
 src: url(Abel-Regular.ttf);
 }
 
+@font-face {
+  font-family: create-post-label-font;
+  src: url(Abel-Regular.ttf);
+}
+
 .create-post-title-font {
    font-family: create-post-title-font;
    font-size: 20px;
@@ -107,9 +112,10 @@ src: url(Abel-Regular.ttf);
  }
 
  .create-post-label {
-   font-family: create-post-title-font;
+   font-family: create-post-label-font;
    font-size: 15px;
    text-align: center;
+   font-weight: bolder;
  }
 
 .pseudolink { 
