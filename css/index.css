@@ -12,3 +12,103 @@ body{
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
                                  
+.create-post-title-box {
+   width:50%;
+   background-color: lightgrey;
+   border: 0;
+   height: 30px;
+   padding-left: 5px;
+   margin-top: 5px;
+   margin-bottom: 15px;
+ }
+ 
+ .create-post-content-box {
+   width:100%;
+   background-color: lightgrey;
+   border: 0;
+   height: 300px;
+   padding-left: 5px;
+   margin-top: 5px;
+   margin-bottom: 15px;
+ }
+ 
+ .create-post-button {
+   background-color: rgb(41, 179, 75);
+   border: none;
+   color: white;
+   /* padding: 15px 32px; */
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   font-size: 16px;
+   width: 20%;
+   margin:auto;
+   
+  
+ }
+ 
+ .postButtons {
+   line-height: 500px;
+   text-align: center;
+ 
+ }
+ 
+ .center-button {
+   background-color:yellow; 
+   border: none;
+   color: black;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 5px;
+   font-weight: bold;
+ }
+ 
+ .pseudolink { 
+    color:blue; 
+    text-decoration:underline; 
+    cursor:pointer; 
+ }
+
+ .create-post-modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   padding-top: 100px; /* Location of the box */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   margin: auto;
+}
+
+.create-post-modal-content {
+   background-color: #fefefe;
+   margin: auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 40%;
+}
+
+@font-face {
+font-family: create-post-title-font;
+src: url(Abel-Regular.ttf);
+}
+
+.create-post-title-font {
+   font-family: create-post-title-font;
+   font-size: 20px;
+   text-align: center;
+ }
+
+ .create-post-label {
+   font-family: create-post-title-font;
+   font-size: 15px;
+   text-align: center;
+ }
