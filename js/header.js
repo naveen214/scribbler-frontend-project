@@ -70,7 +70,6 @@ function gotoSignin() {
       
       modal3.style.display = "none";
       modal4.style.display = "block";
-            
-  
+              
 }
 
