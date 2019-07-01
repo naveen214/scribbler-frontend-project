@@ -9,25 +9,79 @@
     </style>     
 </head>
 <body>
+    <div id="main-container-div">
+
         <div class="header">
 
-
+            <div class="main-header">
                 <h1 class="scribbler"> ScriBBler </h1>
-                
-                <div> 
-                    <button class="button" id= "signin-button">Sign In</button>
+			
+			    <div> 
+			        <button class="button" id= "signin-button">Sign In</button>
                     <button class="button" id = "signup-button">Sign Up</button>
-                </div>	
-                
-    
+                </div> 
             </div>
-            
-             <div class="subtitle">
-                <h4>Explore, Imagine, Create</h4>   
+
+            <div class="subtitle"> 
+                <h4>Explore, Imagine, Create</h4>
             </div>
-    
-            <br></br>
+
         </div>
+        <br></br>
+    </div>
+
+    <div id="signup-modal" class="modal">
+
+        <!-- Insert code for Sign Up modal here -->
+        
+
+            <!-- Modal content -->
+            <div class="modal-content">
+            <form>
+              <span class="close">&times;</span>
+              <h2 class="modal-title">Get Started</h2>
+              <div class="line"></div>
+              <br>
+                <label class="signup-signin-label">Full Name</label>
+                <input class="signup-signin-textbox" type="text" name="fname" placeholder="Enter Full Name" required/>
+                <label class="signup-signin-label">Username</label> 
+                <input class="signup-signin-textbox" type="text" name="uname" placeholder="Enter Username" required/>
+                <label class="signup-signin-label">Password</label> 
+                <input class="signup-signin-textbox" type="password" name="pword" placeholder="Enter Password" required/>
+                <label class="signup-signin-label">Confirm Password</label>  
+                <input class="signup-signin-textbox" type="password" name="confirm_pword" placeholder="Confirm Password" required/>
+              <br>
+              <!-- <input type="submit" value = "Sign Up"> -->
+              <button class="modal-button">Sign Up</button>
+            </form>
+            </div>
+          
+    </div>
+	
+	<div id="signin-modal" class="modal">
+
+        <!-- Insert code for Sign In modal here -->
+
+            <!-- Modal content -->
+            <div class="modal-content">
+            <form>
+              <span class="close">&times;</span>
+              <h2 class="modal-title">Welcome Back!</h2>
+              <div class="line"></div>
+              <br>
+
+              <label class="signup-signin-label">Username</label> 
+              <input class="signup-signin-textbox" type="text" name="fname" placeholder="Enter Username" required><br>
+              <label class="signup-signin-label">Password</label>
+              <input class="signup-signin-textbox" type="password" name="uname" placeholder="Enter Password" required><br>
+              <button class="modal-button">Sign In</button>
+           
+              <p class="new-member">Not a member?<span id="signup-click" onclick="gotoSignin()" class="pseudolink">Sign Up</span></p>
+            </form>
+            </div>
+          
+    </div>
+  
 
     <div class="blogContent">
         <div id="blogTitle" class="blogTite">
@@ -59,7 +113,7 @@
     <button class="blogButton" id="commentBtn" onclick="addComment()">Comment</button>
 </div>
 <br>
-<div style="font-size:16px;font-size: 600;">All Comments</div>
+<div><strong style="font-size:16px;">All Comments</strong></div>
 <br>
 <div id="allComments"></div>
 
